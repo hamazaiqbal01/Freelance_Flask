@@ -2,6 +2,15 @@
 # Jinga 2 = if you have separate data source you can integrate with HTML
 #HTTP verb GET and POST 
 
+
+'''
+{%...%} condition for loops 
+{{   }} expressions to print ouput 
+{#...#} this is for comments 
+'''
+
+
+
 from flask import Flask, redirect, render_template, request, url_for
 
 app = Flask(__name__)
